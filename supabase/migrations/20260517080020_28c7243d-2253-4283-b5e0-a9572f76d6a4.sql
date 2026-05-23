@@ -1,0 +1,1 @@
+ALTER TABLE public.leads ADD COLUMN IF NOT EXISTS leads_count integer NOT NULL DEFAULT 1;
